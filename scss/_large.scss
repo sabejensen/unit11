@@ -1,0 +1,34 @@
+header, nav, main, footer,div#hamburger, div.small-nav {
+        margin:auto;
+}
+.content-container {
+        max-width: 64rem;
+        margin: auto;
+}
+
+/*----------- BODY --------------*/
+.page-container {
+        display: block;
+    }
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+nav ul li {flex-basis: auto;}
+nav ul {margin-left: 0%;}
+nav ul li a{padding: .6rem .8rem;}
+
+
+/*----------- MAIN --------------*/
+
+main img {
+        width: 20%;
+        margin: 20px;
+        padding: 10px;
+    }
+
+/*----------- FOOTER --------------*/
+    

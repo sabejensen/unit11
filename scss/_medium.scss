@@ -1,0 +1,54 @@
+
+
+
+/*----------- BODY --------------*/
+.page-container {
+    display: grid;
+    grid-template-areas: 
+        "nav main main main main"
+}
+
+
+/*----------- HEADER --------------*/
+
+h1 {font-size: 28pt;}
+h2 {font-size: 18pt;}
+
+
+/*----------- NAVIGATION --------------*/
+    .medium-nav{
+        display: block;
+    }
+    .small-nav{
+        display: none;
+    }
+    nav {
+        grid-area: nav;
+    }
+    main {
+        grid-area: main;
+    }
+    
+    
+
+
+/*----------- MAIN --------------*/
+main img {
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+}
+.right {
+    float: right;
+    margin: 2%;
+}
+.left {
+    float: left;
+}
+main {
+    overflow: hidden;
+}
+
+
+/*----------- FOOTER --------------*/
+    
